@@ -1,0 +1,16 @@
+{
+    "name": "salyangoz/parasut-rapor",
+    "description": "Parasut düzenli satis raporu",
+    "version": "1.0.0",
+    "require": {
+        "mayoz/parasut": "^1.0",
+        "maatwebsite/excel": "^2.1",
+        "aws/aws-sdk-php": "^3.20"
+    },
+    "authors": [
+        {
+            "name": "Ibrahim S. Orencik",
+            "email": "o@yedincisenol.com"
+        }
+    ]
+}
