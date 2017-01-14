@@ -1,5 +1,5 @@
 # Paraşüt düzenli satış raporları aracı
-Paraşüt ön muhasebe ve fatura programının pazaryerleri ile otomatik entegrasyonunu sağlayan PHP(Laravel) kodudur. Bu paket sayesinde N11, Gittigidiyor ve Hepsiburada satışlarınızı gerekli ayarları yaparak satışlarınızın belirlediğiniz aralıklarda paraşüte işlenmesini sağlar. Eğer e-Fatura veya e-Arşiv müşterisiyseniz paraşüt üzerinde bunların gerekli bilgilere göre e-Arşiv veya e-Fatura olarak gönderilmesini sağlar. Paraşüt'ün http://api.parasut.com/docs bölümündeki Satış Faturaları - Yeni Fatura ve e-Arşiv/e-Fatura kayıt atmasını kullanır. 
+Paket açıklaması... 
 ## Framework : Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/salyangoz/parasut-rapor.svg?style=flat-square)](https://packagist.org/packages/salyangoz/parasut-rapor)
