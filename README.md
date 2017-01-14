@@ -131,7 +131,7 @@ PARASUT_ACCOUNT_ID=
 
 ### Email Ayarlamaları (.env)
 
-[Laravel Mail](https://laravel.com/docs/5.3/mail) sayfasındaki bilgiler ışığında laravel projenize mail kurulumunu yapınız.
+[Laravel Mail](https://laravel.com/docs/5.3/mail) sayfasındaki bilgiler ışığında laravel projenize mail kurulumunu yapınız. Ardından proje için aşağıda belirtilen değerleri giriniz.
 
 ````
 EMAIL_FROM_EMAIL=Mailde görünecek gönderen email adresi
