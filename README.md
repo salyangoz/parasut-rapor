@@ -16,7 +16,7 @@ Paket bir Laravel paketi olduğu için öncelikle bir Laravel kurulumunuzun yap�
 Paketi yüklemek için Laravel'in yüklü olduğu root klasörde aşağıdaki komutu çalıştırmanız gerekli
 
 ``` bash
-$ composer require salyangoz/pazaryeri-parasut
+$ composer require salyangoz/parasut-rapor
 ```
 
 #### Step: 3
@@ -49,7 +49,7 @@ Eğer projeniz için paketteki sabitleri değiştirmeniz gerekirse (E-mail metni
 php artisan vendor:publish --provider="Salyangoz\ParasutRapor\ParasutRaporServiceProvider"
 ``
 
-Bu komutu çalıştırmanız ardından paketin config.php dosyası Laravel projenizin config dizinine `pazaryeri-parasut.php` olarak kopyalanacaktır ve mail view dosyası resources/views yoluna kopyalanır, burda yaptığınız değişiklikler paket içindeki config dosyası ile birleşecek ya da overrite olacaktır.
+Bu komutu çalıştırmanız ardından paketin config.php dosyası Laravel projenizin config dizinine `parasut-rapor.php` olarak kopyalanacaktır ve mail view dosyası resources/views yoluna kopyalanır, burda yaptığınız değişiklikler paket içindeki config dosyası ile birleşecek ya da overrite olacaktır.
 
 #### Step 6: Laravel task
 
