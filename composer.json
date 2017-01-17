@@ -12,7 +12,7 @@
             "email": "o@yedincisenol.com"
         }
     ],
-    "version": "v1.0.0",
+    "version": "1.0.0",
     "minimum-stability": "dev",
     "prefer-stable" : true,
     "license": "MIT",
