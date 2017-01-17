@@ -1,7 +1,7 @@
 {
     "name": "salyangoz/parasut-rapor",
     "description": "Parasut düzenli satis raporu",
-    "version": "1.0.0",
+    "version": "v1.0.0",
     "minimum-stability": "dev",
     "prefer-stable" : true,
     "license": "MIT",
