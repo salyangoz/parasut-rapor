@@ -4,8 +4,7 @@
     "require": {
         "mayoz/parasut": "^1.0",
         "maatwebsite/excel": "^2.1",
-        "aws/aws-sdk-php": "^3.20",
-        "vendor/packageb": "dev-master"
+        "aws/aws-sdk-php": "^3.20"
     },
     "authors": [
         {
