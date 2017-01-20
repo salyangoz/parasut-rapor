@@ -1,5 +1,5 @@
 # Paraşüt düzenli satış raporları aracı
-Paket açıklaması... 
+Paraşüt API'ını kullanarak satış faturalarının aylık rapor olarak e-posta gönderilmesini sağlayan Laravel kütüphanesi
 ## Framework : Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/salyangoz/parasut-rapor.svg?style=flat-square)](https://packagist.org/packages/salyangoz/parasut-rapor)
