@@ -61,6 +61,6 @@ class ParasutRaporServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return array('parasut-rapor');
+        return array('ParasutRapor');
     }
 }
