@@ -80,13 +80,13 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
          /* Aylık rapor */
-           $schedule->command('parasut-rapor:report')->everyMonth();
+           $schedule->command('parasut-rapor:report')->monthly();
            
          /* Haftalık */
-          #$schedule->command('parasut-rapor:report')->everyWeek();
+          $schedule->command('parasut-rapor:report')->weekly();
           
           /* Günlük rapor */
-         #$schedule->command('parasut-rapor:report')->everyDay();
+         #$schedule->command('parasut-rapor:report')->daily();
     }
 
     /**
