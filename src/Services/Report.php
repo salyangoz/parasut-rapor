@@ -186,9 +186,15 @@ class Report
 
             $issueTimestamp         =   Carbon::createFromFormat("Y-m-d",$sale['issue_date'])->timestamp;
 
+            $startWith = true;
+
+            if(config('parasut-rapor.report.invoice_prefix'))
+            {
+                $startWith = starts_with($sale['invoice_no'],explode(",",config('parasut-rapor.report.invoice_prefix')));
+            }
+
             if($sale['item_type'] == 'invoice' && $issueTimestamp >=  $period['start']
-                && $issueTimestamp <=  $period['end'] &&
-                starts_with($sale['invoice_no'],explode(",",config('parasut-rapor.report.invoice_prefix')))) {
+                && $issueTimestamp <=  $period['end'] && $startWith) {
 
                 $saleModel  =   new Sale();
 
